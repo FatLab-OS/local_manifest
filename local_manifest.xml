@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Trees -->
+<project path="device/10or/g" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
+<project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8952-common.git" remote="github" revision="lineage-18.1" />
+<project path="vendor/18or" name="RahulPalXDA/android_vendor_18or.git" remote="github" revision="master" />
+<project path="kernel/10or/G" name="0orDevs/android_kernel_10or_g-4.9.git" remote="github" revision="lineage-18.1
+
+</manifest>
