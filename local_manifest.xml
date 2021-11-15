@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Trees -->
-<project path="device/10or/g" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
-<project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8952-common.git" remote="github" revision="lineage-18.1" />
-<project path="vendor/18or" name="RahulPalXDA/android_vendor_18or.git" remote="github" revision="master" />
-<project path="kernel/10or/G" name="0orDevs/android_kernel_10or_g-4.9.git" remote="github" revision="lineage-18.1
+	<remote name="FatLab-OS"
+		fetch="https://github.com/FatLab-OS" />
+	
+	<remote name="BlackSuan"
+		fetch="https://github.com/Blacksuan19" />
+	
+  <remote  name="AndroidSource"
+                 fetch="https://android.googlesource.com" />
+	
+	<remote name="line"
+		fetch="https://github.com/LineageOS" />
+	
+	<remote name="pe"
+		fetch="https://github.com/PixelExperience" />
+	
 
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+
+	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
+
+
+	
 </manifest>
